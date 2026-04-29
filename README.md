@@ -75,7 +75,7 @@ olist-customer-churn-analysis/
 │   ├── chart6_orders_distribution.png
 │   ├── chart7_roc_curve.png
 │   ├── chart8_feature_importance.png
-│   ├── churn_model.pkl
+│   ├── ├── churn_model.pkl        # Not included (322MB) - run notebook 04 to regenerate
 │   └── Olist_Churn_Dashboard.pbix
 ├── 01_data_loading.ipynb
 ├── 02_feature_engineering.ipynb
@@ -112,7 +112,9 @@ Built an interactive 4-page Power BI dashboard covering:
 1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 2. Place all CSV files inside the `data/` folder
 3. Run notebooks in order: 01 → 02 → 03 → 04
-4. Open `outputs/Olist_Churn_Dashboard.pbix` in Power BI Desktop
+4. Note: churn_model.pkl is not included in this repo due to file size (322MB).
+   Running notebook 04 will automatically regenerate and save it to your outputs folder.
+5. Open `outputs/Olist_Churn_Dashboard.pbix` in Power BI Desktop
 
 ---
 
